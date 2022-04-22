@@ -1,9 +1,13 @@
-html,
-body {
+@import url('https://fonts.googleapis.com/css?family=Poppins:300');
+
+@tailwind base;
+@tailwind components;
+
+* {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Poppins, sans-serif;
+  box-sizing: border-box;
 }
 
 a {
@@ -11,6 +15,4 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
-}
+@tailwind utilities;
